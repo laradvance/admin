@@ -413,7 +413,7 @@ return [
             // the value is used to show
             'languages' => [
                 'en' => 'English',
-                'in' => 'Indonesia',
+                'id' => 'Indonesia',
             ],
             // default locale
             'default' => 'en',
