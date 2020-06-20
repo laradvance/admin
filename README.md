@@ -1,7 +1,7 @@
 # Laradvance Admin
 
 [![Build Status](https://travis-ci.org/laradvance/admin.svg?branch=master)](https://travis-ci.org/laradvance/admin)
-[![StyleCI](https://github.styleci.io/repos/225842258/shield?branch=master)](https://github.styleci.io/repos/225842258)
+[![StyleCI](https://github.styleci.io/repos/245788616/shield?branch=master)](https://github.styleci.io/repos/245788616)
 [![Latest Stable Version](https://poser.pugx.org/laradvance/admin/v/stable?format=flat-square)](https://packagist.org/packages/laradvance/admin)
 [![Latest Unstable Version](https://poser.pugx.org/laradvance/admin/v/unstable?format=flat-square)](https://packagist.org/packages/laradvance/admin)
 [![Total Downloads](https://poser.pugx.org/laradvance/admin/downloads?format=flat-square)](https://packagist.org/packages/laradvance/admin)
