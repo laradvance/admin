@@ -34,7 +34,7 @@ class MenuTest extends TestCase
             ->submitForm('Submit', $item)
             ->seePageIs('admin/auth/menu')
             ->seeInDatabase(config('admin.database.menu_table'), $item)
-            ->assertEquals(13, Menu::count());
+            ->assertEquals(8, Menu::count());
 
 //        $this->expectException(\Laravel\BrowserKitTesting\HttpException::class);
 //
@@ -45,8 +45,8 @@ class MenuTest extends TestCase
 
     public function testDeleteMenu()
     {
-        $this->delete('admin/auth/menu/13')
-            ->assertEquals(12, Menu::count());
+        $this->delete('admin/auth/menu/8')
+            ->assertEquals(7, Menu::count());
     }
 
     public function testEditMenu()
@@ -56,7 +56,7 @@ class MenuTest extends TestCase
             ->submitForm('Submit', ['title' => 'blablabla'])
             ->seePageIs('admin/auth/menu')
             ->seeInDatabase(config('admin.database.menu_table'), ['title' => 'blablabla'])
-            ->assertEquals(12, Menu::count());
+            ->assertEquals(7, Menu::count());
     }
 
     public function testShowPage()
